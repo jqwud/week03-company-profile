@@ -13,3 +13,7 @@ Route::get('/about', function () {
 Route::get('/services', function () {
     return view('pages.services');
 })->name('services');
+
+Route::get('/contact', function () {
+    return view('pages.contact');
+})->name('contact');
