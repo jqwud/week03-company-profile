@@ -9,9 +9,13 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body>
-    @include('components.navigation')
+<body class="cz-body">
+    @include('components.navbar')
 
-    @yield('content')
+    <main class="cz-main">
+        @yield('content')
+    </main>
+
+    @include('components.footer')
 </body>
 </html>

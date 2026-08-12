@@ -5,167 +5,223 @@
     <main>
 
         {{-- Hero Section --}}
-        <section class="hero">
-            <div class="hero-content">
-                <p class="eyebrow">A DIGITAL CREATIVE COLLECTIVE</p>
+            <section class="hero">
+                <div class="hero-content">
 
-                <h1>
-                    Made by creatives.
-                    <span>Built for the digital world.</span>
-                </h1>
+                    <div class="hero-copy">
 
-                <p class="hero-description">
-                    Creative-Z brings together artists, designers, musicians,
-                    photographers, and digital creators to turn ideas into
-                    meaningful digital experiences.
-                </p>
+                        <p class="eyebrow">
+                            CREATIVE-Z / DIGITAL CREATIVE COLLECTIVE
+                        </p>
 
-                <div class="hero-actions">
-                    <a href="#services" class="button button-primary">
-                        Explore Services
-                    </a>
+                        <h1>
+                            Different toolkits.
+                            <span>Same obsession.</span>
+                        </h1>
 
-                    <a href="#collective" class="button button-secondary">
-                        Meet the Collective
-                    </a>
+                        <p class="hero-description">
+                            A creative collective bringing together graphics,
+                            web, music, photography, motion, and visual identity
+                            to turn ideas into digital work.
+                        </p>
+
+                        <div class="hero-actions">
+                            <a href="#services" class="button button-primary">
+                                Explore Services
+                            </a>
+
+                            <a href="{{ route('contact') }}" class="button button-secondary">
+                                Start a Project
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="hero-visual">
+
+                        <div class="hero-orbit orbit-one"></div>
+                        <div class="hero-orbit orbit-two"></div>
+
+                        <div class="hero-core">
+                            <span class="hero-core-mark">CZ</span>
+                            <span class="hero-core-label">CREATIVE-Z</span>
+                            <span class="hero-core-subtitle">MAKE / TOGETHER</span>
+                        </div>
+
+
+                        <div class="creative-tool tool-graphics">
+                            <span class="tool-index">01</span>
+                            <strong>GRAPHICS</strong>
+                            <div class="tool-graphic graphic-shapes">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                        </div>
+
+
+                        <div class="creative-tool tool-web">
+                            <span class="tool-index">02</span>
+                            <strong>WEB DESIGN</strong>
+
+                            <div class="browser-window">
+                                <div class="browser-bar">
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                                </div>
+
+                                <div class="browser-content">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="creative-tool tool-music">
+                            <span class="tool-index">03</span>
+                            <strong>MUSIC</strong>
+
+                            <div class="sound-wave">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                        </div>
+
+
+                        <div class="creative-tool tool-photo">
+                            <span class="tool-index">04</span>
+                            <strong>PHOTO</strong>
+
+                            <div class="camera-shape">
+                                <div class="camera-lens"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="creative-tool tool-motion">
+                            <span class="tool-index">05</span>
+                            <strong>MOTION</strong>
+
+                            <div class="motion-bars">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                        </div>
+
+
+                        <div class="creative-tool tool-brand">
+                            <span class="tool-index">06</span>
+                            <strong>IDENTITY</strong>
+
+                            <div class="brand-symbol">
+                                A
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
-            </div>
-        </section>
-
-
-        {{-- Services Preview --}}
-        <section id="services" class="services-section">
-            <div class="section-heading">
-                <p class="eyebrow">WHAT WE CREATE</p>
-
-                <h2>
-                    Different skills.
-                    <span>One creative space.</span>
-                </h2>
-
-                <p>
-                    Our collective brings different creative disciplines
-                    together to create digital work for the modern world.
-                </p>
-            </div>
-
-            <div class="services-grid">
-
-                <article class="service-card">
-                    <span class="service-number">01</span>
-
-                    <h3>Digital Graphics</h3>
-
-                    <p>
-                        Digital artwork, social media graphics, posters,
-                        and visual content designed to communicate ideas.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <span class="service-number">02</span>
-
-                    <h3>Web Design</h3>
-
-                    <p>
-                        Modern websites, landing pages, portfolios,
-                        and digital interfaces built around creative ideas.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <span class="service-number">03</span>
-
-                    <h3>Music & Beats</h3>
-
-                    <p>
-                        Original beats, digital music, and audio created
-                        for artists, content creators, and digital projects.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <span class="service-number">04</span>
-
-                    <h3>Photography</h3>
-
-                    <p>
-                        Portraits, products, events, and creative photography
-                        for personal and professional projects.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <span class="service-number">05</span>
-
-                    <h3>Video & Motion</h3>
-
-                    <p>
-                        Short-form content, motion graphics, and visual
-                        storytelling designed for digital platforms.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <span class="service-number">06</span>
-
-                    <h3>Branding</h3>
-
-                    <p>
-                        Logos, visual identities, and creative brand assets
-                        that help ideas establish a recognizable presence.
-                    </p>
-                </article>
-
-            </div>
-        </section>
+            </section>
 
 
         {{-- Collective Section --}}
         <section id="collective" class="collective-section">
+
+            <div class="collective-number">
+                01
+            </div>
+
             <div class="collective-content">
 
-                <div>
-                    <p class="eyebrow">THE COLLECTIVE</p>
+                <div class="collective-heading">
+                    <p class="eyebrow">THE IDEA BEHIND CREATIVE-Z</p>
 
                     <h2>
-                        Creativity works
-                        <span>better together.</span>
+                        Different crafts.
+                        <span>One creative direction.</span>
                     </h2>
                 </div>
 
-                <div>
-                    <p>
-                        Creative-Z was imagined as a space where different
-                        creative disciplines can meet, collaborate, and
-                        produce work together.
+                <div class="collective-story">
+
+                    <p class="collective-lead">
+                        Creative-Z started with a simple idea:
+                        <strong>creative work becomes stronger when different
+                        people bring their own craft to the table.</strong>
                     </p>
 
                     <p>
-                        Instead of limiting creativity to one field, we
-                        connect different skills to create digital experiences
-                        that reflect the way people create today.
+                        We bring together artists, designers, musicians,
+                        photographers, and digital creators to work across
+                        disciplines and turn ideas into something tangible.
                     </p>
+
+                    <p>
+                        There is no single way to create here. A visual can
+                        inspire a sound. A photograph can shape a brand.
+                        A website can become the place where everything comes
+                        together.
+                    </p>
+
                 </div>
 
             </div>
+
+            <div class="collective-mark">
+                <span>CZ</span>
+                <small>CREATE / COLLABORATE</small>
+            </div>
+
         </section>
 
 
         {{-- Call to Action --}}
         <section class="cta-section">
-            <div>
-                <p class="eyebrow">HAVE AN IDEA?</p>
 
-                <h2>
-                    Let's create
-                    <span>something meaningful.</span>
-                </h2>
+            <div class="cta-inner">
 
-                <a href="#" class="button button-primary">
-                    Start a Project
-                </a>
+                <div class="cta-number">
+                    02
+                </div>
+
+                <div class="cta-content">
+
+                    <p class="eyebrow">HAVE AN IDEA?</p>
+
+                    <h2>
+                        Let's make
+                        <span>something worth seeing.</span>
+                    </h2>
+
+                    <p class="cta-description">
+                        Whether you have a visual concept, a digital project,
+                        a sound in mind, or simply an idea that needs direction,
+                        Creative-Z is ready to build with you.
+                    </p>
+
+                    <a href="{{ route('contact') }}" class="button button-primary">
+                        Start a Project
+                    </a>
+
+                </div>
+
+                <div class="cta-mark" aria-hidden="true">
+                    <span>✦</span>
+                </div>
+
             </div>
+
         </section>
 
     </main>
