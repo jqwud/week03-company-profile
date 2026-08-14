@@ -67,21 +67,7 @@ Laravel uses MVC because it gives the application a clear, predictable structure
 
 ### Request Flow Diagram
 
-```text
-Browser
-   │
-   ▼
-Route
-   │
-   ▼
-Controller
-   │
-   ▼
-Blade View
-   │
-   ▼
-Response to Browser
-```
+![MVC request flow architecture diagram](documentation/architecture-diagram.png)
 
 In this project specifically: a request hits `routes/web.php`, which forwards it to a method on `CompanyController`, which returns a Blade view from `resources/views/pages/`, which is rendered back to the browser as HTML.
 
