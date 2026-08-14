@@ -288,13 +288,13 @@ This means the navbar and footer only need to be written once and are shared acr
 ![About page](screenshots/2.1-about-page.png)
 
 ### Services Page
-![Services page](screenshots/3.1-services-page.png-)
+![Services page](screenshots/3.1-services-page.png)
 
 ### Contact Page
 ![Contact page](screenshots/4.1-contact-page.png)
 
 ### Navigation Bar
-![Navigation bar](screenshots/5-navbar.png)
+![Navigation bar](screenshots/5-navigation-bar.png)
 
 ### Footer
 ![Footer](screenshots/6-footer.png)
